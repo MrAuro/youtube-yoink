@@ -1,7 +1,7 @@
 # youtube-yoink
 UI for youtube-dl
 
-Downloads youtube URLs as mp3s or mp4s using https://github.com/ytdl-org/youtube-dl
+Downloads youtube URLs as mp3s or mp4s using https://github.com/ytdl-org/youtube-dl (exe included in the release)
 
 ## How to use
 1. Download the latest release from the releases tab
