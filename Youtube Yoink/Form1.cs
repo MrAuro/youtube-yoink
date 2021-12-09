@@ -31,6 +31,10 @@ namespace Youtube_Yoink
 				System.Diagnostics.Process.Start("ytdl.exe", "-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4'" + url);
 
 			}
+			else if (radioButton3.Checked)
+			{
+				System.Diagnostics.Process.Start("ytdl.exe", "-x --audio-format wav " + url);
+			}
 			else
 			{
 				throw new Exception("No radio button selected");
